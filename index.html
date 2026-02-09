@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abun d'Bashmayo Manuscript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Abun d'Bashmayo</h1>
+        <div class="top-buttons">
+            <button onclick="showEnglish()">English Meaning</button>
+            <button onclick="showTranslit()">Transliteration</button>
+            <button onclick="toggleAbout()">About</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- LEFT SIDE: MANUSCRIPT -->
+        <div class="manuscript">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Lords_Prayer_Aramaic.jpg" alt="Syriac Manuscript">
+        </div>
+
+        <!-- RIGHT SIDE: TEXT -->
+        <div class="text-panel">
+            <div id="transliteration" class="text-content">
+                <h2>Transliteration</h2>
+                <p>
+                    Abun d'bashmayo, nethqadash shmokh. <br>
+                    Tethe malkuthokh. <br>
+                    Nehwe sebyonokh aykano d'bashmayo af b'ar'a. <br>
+                    Hav lan lahma d'sunqonan yawmono. <br>
+                    Washboq lan hawbayn aykano d'af hnan shbaqan l'hayobayn. <br>
+                    Wela ta'lan l'nesyuna. <br>
+                    Ela patzan min bisha. <br>
+                    Metol dilokhie malkutho wahaylo wateshbuhto l'alam almin. Amin.
+                </p>
+            </div>
+
+            <div id="english" class="text-content hidden">
+                <h2>English Meaning</h2>
+                <p>
+                    Our Father in heaven, hallowed be Your name. <br>
+                    Your kingdom come. <br>
+                    Your will be done, on earth as it is in heaven. <br>
+                    Give us today our daily bread. <br>
+                    Forgive us our debts, as we also forgive our debtors. <br>
+                    Lead us not into temptation, <br>
+                    but deliver us from evil. <br>
+                    For Yours is the kingdom, the power and the glory forever. Amen.
+                </p>
+            </div>
+
+            <div id="about" class="text-content hidden">
+                <h2>About This Project</h2>
+                <p>
+                    This website was designed by Daniyel Töre for the Digital Manuscript course.  
+                    The Syriac prayer "Abun d'Bashmayo" holds a central place in daily spiritual and liturgical life.  
+                    It is one of the most widely used and meaningful prayers in the Syriac tradition,  
+                    which is why it was chosen as the focus of this digital manuscript project.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
